@@ -12,6 +12,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -25,12 +30,18 @@
             font-weight: 400;
             font-style: normal;
  }
+
+ .font_2{
+    font-family: "EB Garamond", serif;
+ }
+
+
 </style>
 
 </head>
 <body class="font_1">
    <header>
-    <nav class="px-8 sm:px-12 md:px-16 lg:px-48 py-8">
+    <nav class="px-8 sm:px-12 md:px-8 lg:px-8 xl:px-48 py-8">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -102,9 +113,35 @@
           </div>
     </nav>
 
-    <section class="banner">
-        
+    <section class="banner px-8 sm:px-12 md:px-8 lg:px-8 xl:px-48 font_2">
+<div
+  class="hero font_2 "
+  style="background-image: url('./images/banner.png');">
+  <div class="hero-overlay bg-opacity-60 py-16"></div>
+  <div class="hero-content text-neutral-content text-center py-16 sm:py-20">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+      <p class="mb-5 font_1 text-[#E7E7E7]">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+      </p>
+
+
+    <div class="flex justify-center items-center gap-2">
+       
+        <label class="form-control w-full max-w-xs">
+            
+            <input type="text font_1" placeholder="Search your services" class="text-[#A0A0A0] input input-bordered w-full max-w-xs" />
+          
+          </label>
+          
+          <button class="btn bg-[#B68C5A] px-6 py-2 border-0 text-xl font-medium font_1 text-white">Search</button>
+    </div>
+    </div>
+  </div>
+</div>
     </section>
+
+    
    </header>
    <main>
 
